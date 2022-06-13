@@ -18,19 +18,19 @@ let i = 0;
 function arkaplanrengiDegistir() {
   //     // Sirayla arka plan rengi sec
 
-  //     if(i == colors.length) i=0;
-  //     const secilenRenk = colors[i];
-  //     body.style.backgroundColor=secilenRenk;
-  //     i++;
+      if(i == colors.length) i=0;
+      const secilenRenk = colors[i];
+      body.style.backgroundColor=secilenRenk;
+      i++;
 
-  // }
+  }
 
   //     // Rastgele bir renk
 
-  const rastgeleSayi = Math.floor(Math.random() * colors.length);
-  const secilenRenk = colors[rastgeleSayi];
-  body.style.backgroundColor = secilenRenk;
-}
+  // const rastgeleSayi = Math.floor(Math.random() * colors.length);
+  // const secilenRenk = colors[rastgeleSayi];
+  // body.style.backgroundColor = secilenRenk;
+// }
 
 // otomatik olarak arka plan rengi degistirme
 
